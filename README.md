@@ -20,7 +20,6 @@
  
  ```json
  {
-  "python.pythonPath": "/home/israel/miniconda3/bin/python3",
   "python.linting.pylintArgs": ["--disable=R,C,W", "--max-line-length=1000"],
   "workbench.colorCustomizations": {
     "statusBar.background": "#005eeb",
