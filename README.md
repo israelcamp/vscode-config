@@ -28,34 +28,43 @@
   },
   "editor.semanticTokenColorCustomizations": {
     "[Monokai]": {
-      "enabled": true,
-      "rules": {
-        "support.function.declaration:python": "#A6E22E",
-        "class.declaration:python": {
-          "foreground": "#A6E22E",
-          "underline": false
-        },
-        "selfParameter": {
-          "foreground": "#FD971F",
-          "fontStyle": "bold"
-        },
-        "class.typeHint.builtin:python": {
-          "foreground": "#66D9EF",
-          "fontStyle": "italic"
-        },
-        "class.builtin:python": {
-          "foreground": "#66D9EF",
-          "fontStyle": "italic"
-        },
-        "class:python": { "foreground": "#66D9EF", "fontStyle": "" },
-        "module:python": { "foreground": "#8968f7f8", "fontStyle": "" },
-        "*.function.magic:python": "#66D9EF",
-        "*.decorator:python": "#00dd12",
-        "class.decorator.builtin:python": "#00dd12",
-        "*.typeHint:python": "#5500aa",
-        "*.typeHintComment:python": "#aaaaaa"
-      }
-    }
+            "enabled": true,
+            "rules": {
+                "support.function.declaration:python": "#A6E22E",
+                "class.declaration:python": {
+                    "foreground": "#A6E22E",
+                    "underline": false
+                },
+                "selfParameter": {
+                    "foreground": "#FD971F",
+                    "fontStyle": "bold"
+                },
+                "class.typeHint.builtin:python": {
+                    "foreground": "#66D9EF",
+                    "fontStyle": "italic"
+                },
+                "class.builtin:python": {
+                    "foreground": "#66D9EF",
+                    "fontStyle": "italic"
+                },
+                "class:python": {
+                    "foreground": "#66D9EF",
+                    "fontStyle": ""
+                },
+                "module:python": {
+                    "foreground": "#8968f7f8",
+                    "fontStyle": ""
+                },
+                "*.function.magic:python": "#66D9EF",
+                "*.decorator:python": "#00dd12",
+                "class.decorator.builtin:python": "#00dd12",
+                "*.typeHint:python": {
+                    "foreground": "#66D9EF",
+                    "fontStyle": "italic"
+                },
+                "*.typeHintComment:python": "#aaaaaa"
+            }
+        }
   },
 
   "git.ignoreMissingGitWarning": true,
